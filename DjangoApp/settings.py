@@ -25,12 +25,13 @@ SECRET_KEY = 'django-insecure-d+b50jp+@d_*k4qmtz9)45_7tb5ne^m-8jfy&r#-hxi11c0qsb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['139.144.183.220']
+ALLOWED_HOSTS = ['139.144.183.220', '127.0.0.1']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'RaintreeApp',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
